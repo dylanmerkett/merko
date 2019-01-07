@@ -1,0 +1,389 @@
+/* ------------------------------ */
+/* BASIC SETUP */
+/* ------------------------------ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/* ------------------------------ */
+/* REUSABLE COMPONENTS */
+/* ------------------------------ */
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 80px 0;
+}
+
+.box {
+    padding: 1%;
+}
+
+/* ----- HEADINGS ----- */
+
+h1,
+h2,
+h3 {
+    font-weight: 300;  
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 200%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 160%;
+    word-spacing: 2px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+
+/* ----- PARAGRAPHS -----*/
+
+.long-copy {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.box p {
+    font-size: 90%;
+    line-height: 145%;
+}
+
+/* ----- ICONS ----- */
+
+.icon-big {
+    font-size: 350%;
+    display: block;
+    color: #cd3980;
+    margin-bottom: 10px;
+}
+
+/* ----- BUTTONS ----- */
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.3s, border 0.3s, color 0.3s;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #cd3980;
+    border: 1px solid #cd3980;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #cd3980;
+    color: #cd3980;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #a92b67;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid #cd3980;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #cd3980;
+    color: #fff;
+}
+
+/* ------------------------------ */
+/* HEADER */
+/* ------------------------------ */
+
+header {
+    height: 60vh;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo {
+    max-height: 70px;
+    width: auto;
+    float: left;
+    margin-top: 30px;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 55px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: #555;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 70%;
+    font-weight: 400;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #cd3980;
+}
+
+.bold-text {
+    font-weight: 500;
+}
+
+/* ------------------------------ */
+/* FEATURES */
+/* ------------------------------ */
+
+.section-features h2 {
+    text-align: center;
+}
+
+.section-features .long-copy {
+    margin-bottom: 30px;
+}
+
+.section-features:after {
+    display: block;
+    height: 1px;
+    background-color: rgb(240, 238, 238);
+    content: " ";
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+/* ------------------------------ */
+/* SERVICES */
+/* ------------------------------ */
+
+.section-services {
+    padding: 0;     
+}
+
+.section-services ul {
+    width: 1140px;
+    margin: auto;
+}
+
+.services-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.services-showcase li {
+    display: block;
+    float: left;
+    width: 33.3333%;   
+    padding-bottom: 20px; 
+}
+
+.services-photo {
+    width: 95%;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.services-photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.services-photo img:hover {
+    opacity: 1;
+    transform: scale(1.03);
+}
+
+/* ------------------------------ */
+/* CONTACT */
+/* ------------------------------ */
+
+.section-contact {
+    padding-top: 0;
+    padding-bottom: 60px;
+}
+
+.section-contact h2 {
+    text-align: center;
+}
+
+.section-contact a:link,
+.section-contact a:visited {
+    color: #555;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.section-contact a:hover,
+.section-contact a:active {
+    color: #cd3980;
+}
+
+/* ------------------------------ */
+/* FOOTER */
+/* ------------------------------ */
+
+footer {
+    background-color: #333;
+    padding: 50px;
+    font-size: 80%;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #ddd;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size: 160%;
+}
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-googleplus,
+.ion-social-instagram {
+    transition: color 0.2s;
+}
+
+
+.ion-social-facebook:hover {
+    color: #ddd;
+}
+
+.ion-social-instagram:hover {
+    color: #ddd;
+}
+
+.ion-social-linkedin:hover {
+    color: #ddd;
+}
+
+footer p {
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer a:link,
+footer a:visited {
+    color: #888;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+footer a:hover,
+footer a:active {
+    color: #ddd;
+}
+
+figure {
+    position: relative;
+}
+
+figure img {
+    display: block;
+}
+
+figcaption {
+    background: rgba(0, 0, 0, 0.0);
+    color: #FFF;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
