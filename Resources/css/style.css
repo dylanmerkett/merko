@@ -77,6 +77,7 @@ h3 {
     line-height: 145%;
     width: 70%;
     margin-left: 15%;
+    text-align: center;
 }
 
 .box p {
@@ -256,6 +257,22 @@ header {
     transform: scale(1.03);
 }
 
+figure {
+    position: relative;
+}
+
+figure img {
+    display: block;
+}
+
+figcaption {
+    background: rgba(0, 0, 0, 0.0);
+    color: #FFF;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
 /* ------------------------------ */
 /* CONTACT */
 /* ------------------------------ */
@@ -370,20 +387,4 @@ footer a:visited {
 footer a:hover,
 footer a:active {
     color: #ddd;
-}
-
-figure {
-    position: relative;
-}
-
-figure img {
-    display: block;
-}
-
-figcaption {
-    background: rgba(0, 0, 0, 0.0);
-    color: #FFF;
-    position: absolute;
-    top: 20px;
-    left: 20px;
 }
