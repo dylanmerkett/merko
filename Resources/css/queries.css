@@ -10,6 +10,17 @@
 
 }
 
+@media only screen and (max-width: 1160px) {
+    .main-nav { display: none; }
+    .services-showcase li {
+        width: 50%;   
+    }
+
+
+}
+
+
+
 
 
 /* Small tablet to big tablets: from 768 to 1023px */
@@ -89,6 +100,12 @@
 
     .works-step { margin-bottom: 20px; }
     .works-step:last-of-type { margin-bottom: 20px; }
+
+    .services-showcase li {
+        width: 100%;   
+    }
+
+
 
 }
 
