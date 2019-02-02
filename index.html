@@ -5,6 +5,7 @@
         <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
         <link rel="stylesheet" type="text/css" href="Resources/css/style.css">
         <link rel="stylesheet" type="text/css" href="Resources/css/queries.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
@@ -15,87 +16,359 @@
         <header>
             <nav>
                 <div class="row">
-                    <img src="Resources/img/logomerko4.png" alt="Merko logo" class="logo">
-                    <ul class="main-nav">
-                        <li><a href="index.html" class="active">Home</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Why Merko</a></li>
+                    <a href="index.html"><img src="Resources/img/logomerko4.png" alt="Merko logo" class="logo"></a>
+                    <a href="index.html"><img src="Resources/img/logomerko4.png" alt="Merko logo" class="logo-black"></a>
+                    <ul class="main-nav js--main-nav">
+                        <li><a href="#services">What I do</a></li>
+                        <li><a href="#about">Why Merko</a></li>
                         <li><a href="#">Latest Work</a></li>
-                        <li><a href="#">Journal</a></li>
+                        <li><a href="blog.html">Journal</a></li>
                         <li><a href="#">Let's chat</a></li>
                     </ul>
+                    <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
                 </div>
             </nav>
             <div class="hero-text-box">
                 <h1>Beautiful websites for <span class="bold-text">fitness professionals</span></h1>
                 <h2>Get online, get noticed and grow your business</h2>
                 <a class="btn btn-full" href="#">Work with me</a>
-                <a class="btn btn-ghost" href="#">Why Merko</a>
+                <a class="btn btn-ghost" href="#about">Why Merko</a>
             </div>
 
 
         </header>   
 
 
-        <section class="section-services">
-            <div class="row">
-                <h3 class="short-copy">What would you like to do?</h3>
-            </div>
-            <div class="row">
-            <ul class="services-showcase clearfix">
-                <li><a href="#"><figure class="services-photo"><img src="Resources/img/weight-plates.jpg" alt="A pile of weight plates"><figcaption>Create a new website</figcaption></figure></a></li>
-                <li><a href="#"><figure class="services-photo"><img src="Resources/img/running-steps.jpg" alt="A man running up steps"><figcaption>Make great content</figcaption></figure></a></li>
-                <li><a href="#"><figure class="services-photo"><img src="Resources/img/bike-wall-400x500.jpg" alt="A bike against a wall"><figcaption>Climb the search results</figcaption></figure></a></li>
-            </ul>
-            <ul class="services-showcase clearfix">
-                <li><a href="#"><figure class="services-photo"><img src="Resources/img/yoga-400x500.jpg" alt="A man doing yoga on the beach"><figcaption>Reach more of the right people</figcaption></figure></a></li>
-                <li><a href="#"><figure class="services-photo"><img src="Resources/img/trx-2.jpg" alt="A TRX suspension trainer on a fence"><figcaption>Get social</figcaption></figure></a></li>
-                <li><a href="#"><figure class="services-photo"><img src="Resources/img/swimming-400x500.jpg" alt="A person swimming"><figcaption>Do more with an existing website</figcaption></figure></a></li>
-            </ul>
-        </div>
 
 
-        </section>
+        <section class="section-services js--section-services" id="services">
+        <div class="row">
 
-        <section class="section-features">
+        <div class="hover-box-holder">
+  
+                <div class="col span-1-of-3 box">
+                <figure class="hover-box">
+                  <img src="Resources/img/yoga.jpg" alt="" />
+                  <figcaption>
+                  <h3>Web design</h3>
+                  <p>Find out more</p>
+                  <a href="#"></a>
+                  </figcaption>
+                </figure>
+                </div>
+                
+                <div class="col span-1-of-3 box">
+                <figure class="hover-box">
+                  <img src="Resources/img/running-steps.jpg" alt="" />
+                  <figcaption>
+                  <h3>Content creation</h3>
+                    <p>Find out more</p>
+                  <a href="#"></a>
+                  </figcaption>
+                </figure>
+                </div>
+                
+                <div class="col span-1-of-3 box">
+                <figure class="hover-box">
+                  <img src="Resources/img/weight-plates.jpg" alt="" />
+                  <figcaption>
+                  <h3>Search engine improvement</h3>
+                  <p>Find out more</p>
+                  <a href="#"></a>
+                  </figcaption>
+                </figure>
+                </div>
+
+                <div class="hover-box-holder">
+
+                <div class="col span-1-of-3 box">
+                        <figure class="hover-box">
+                          <img src="Resources/img/bike-wall.jpg" alt="" />
+                          <figcaption>
+                          <h3>Digital marketing</h3>
+                          <p>Find out more</p>
+                          <a href="#"></a>
+                          </figcaption>
+                        </figure>
+                        </div>
+                        
+                        <div class="col span-1-of-3 box">
+                        <figure class="hover-box">
+                          <img src="Resources/img/trx.jpg" alt="" />
+                          <figcaption>
+                          <h3>Social media</h3>
+                            <p>Find out more</p>
+                          <a href="#"></a>
+                          </figcaption>
+                        </figure>
+                        </div>
+                        
+                        <div class="col span-1-of-3 box">
+                        <figure class="hover-box">
+                          <img src="Resources/img/swimming.jpg" alt="" />
+                          <figcaption>
+                          <h3>Website audit</h3>
+                          <p>Find out more</p>
+                          <a href="#"></a>
+                          </figcaption>
+                        </figure>
+                        </div>
+
+                        </div>
+                
+              </div>
+            
+            </div>  
+
+            </section>
+
+        <section class="section-steps js--section-steps" id="about">
+                <div class="row">
+                    <h2>Why work with Merko?</h2>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-2 steps-box">
+                        <img src="resources/img/about-6.png" alt="Merko and family" class="app-screen js--wp-2">
+                    </div>
+                    <div class="col span-1-of-2 steps-box">
+                        <div class="works-step">
+                            
+                            <p>It can be challenging at times, running your own busy fitness business, knowing you need to
+                                be online but struggling to find the time to keep your website updated. Let alone managing your social media
+                                presence and promoting your services. Wouldn't it be great if you could find a web expert who also has 
+                                an understanding of the health and fitness industry??</p>
+                        </div>
+                        <div class="works-step">
+                            <p>Hi, I'm Merko, and not only do I have a decade of experience working on global healthcare websites but I also have a first 
+                                class honours degree in Sport Science. And because I only work with people in the health and fitness industry, I'm in
+                                the perfect posiiton to help you manage your online personality.</p>
+                        </div>
+                        <div class="works-step">                           
+                            <p>Your job is to make people fitter, healthier and happier. My job is to listen to what's important to you and create
+                                an online presence that will turn your potential clients into fully fledged fans!</p>
+                        </div>
+                    </div>
+                </div>
+        
+            </section>
+
+            <section class="section-testimonials js--section-testimonials">
+                    <div class="row">
+                        <h2>Good vibes only</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-2 js--wp-5">
+                            <blockquote>
+                                I wanted a website for ages but didn't know where to start. Merko walked me through the process
+                                and stayed in touch throughout so I didn't feel overwhelmed at any point. I ended up with a website that 
+                                looked exactly as I imagined it.
+                                <cite>Pip Northam</cite>
+                            </blockquote>
+                        </div>
+                        <div class="col span-1-of-2 js--wp-6">
+                            <blockquote>
+                                Merko has been great value for money, creating a website for my Pilates business that shows my business
+                                off but also makes it easy for people who come to my site to find out where and when my classes are.
+                                <cite>Gemma Merkett</cite>
+                            </blockquote>
+                        </div>
+                    </div>
+                </section>    
+
+
+        <section class="section-features js--section-features">
             <div class="row">
                 <h2>How it works</h2>
                 <p class="long-copy">
-                        Hello, I'm Merko, your new web services professional. I know you’re busy, helping others with their health and fitness goals, so let me take care of your website and online presence. I'm really good at it, I promise!
+                        I know you’re busy, helping others with their health and fitness goals, so let me take care of your website and online presence. I'm really good at it, I promise!<br>
+                        Here's the process for a typical website design and build.
                 </p>
             </div>
-            <div class="row">
+            <div class="row js--wp-1">
                     
-                <div class="col span-1-of-5 box">
+                <div class="col span-1-of-3 box">
                     <i class="ion-ios-chatboxes-outline icon-big"></i>
                     <h3>Discover</h3>
-                    <p>I want to know all about you! What your dreams and ambitions are for your business, why you're unique, what your message is and who you want it to reach. I'll even come and take part in a class!</p>
+                    <p>I want to know all about you! What your dreams and ambitions are, why you're unique, what your message is and who you want it to reach. I'll even come and take part in one of your classes!</p>
                 </div>
-                <div class="col span-1-of-5 box">
+                <div class="col span-1-of-3 box">
                         <i class="ion-ios-compose-outline icon-big"></i>
                         <h3>Design</h3>
-                        <p>Using the information from the discovery, I'll now create a design of your homepage for your review and input. This is a partnership so I'll want to hear your thoughts throughout the design process.</p>
+                        <p>Using the information we've gathered, I'll now create a design of your homepage for your review and input. This is a partnership so I'll want to hear your thoughts throughout the design process.</p>
                     </div>
-                <div class="col span-1-of-5 box">
+                <div class="col span-1-of-3 box">
                         <i class="ion-ios-monitor-outline icon-big"></i>
                         <h3>Develop</h3>
-                        <p>When you're happy with the design, I'll start to turn it into a working website. Throughout development, you'll have a preview URL where you can begin to test your site across all devices.</p>
+                        <p>When you're happy with the design, I'll start to turn it into a working website. Throughout development, you'll have a preview URL where you can begin to test your site & get a feel for the finished product.</p>
                 </div>
-                <div class="col span-1-of-5 box">
-                        <i class="ion-ios-videocam-outline icon-big"></i>
+            </div>
+            
+            <div class="row js--wp-1">
+                <div class="col span-1-of-3 box">
+                        <i class="ion-ios-paper-outline icon-big"></i>
                         <h3>Content</h3>
-                        <p>Your customers will visit your website for a reason so let's make sure we can answer their questions. I'll lay your content out so it looks beautiful and is optimised for the search engines.</p>
+                        <p>People will come to your website for a reason, so let's make sure we can answer their questions. I'll lay your content out so it looks great, is easy to read and optimised for the search engines.</p>
                 </div>
-                <div class="col span-1-of-5 box">
+                <div class="col span-1-of-3 box">
                         <i class="ion-ios-paperplane-outline icon-big"></i>
                         <h3>Launch</h3>
-                        <p>Time to celebrate! But our work's not done yet. We now need to promote your site so the right people find it. I'll also make sure you're fully trained so you can make updates to your site.</p>
+                        <p>We've checked the content, tested the site and made sure Google knows where it is. Now it's time to make your site live to the world and set it to work, helping you grow your business and build your brand.</p>
                 </div>
+                <div class="col span-1-of-3 box">
+                        <i class="icon ion-ios-mic-outline icon-big"></i>
+                        <h3>Promote</h3>
+                        <p>Now the fun can really begin! It's time to start creating content that speaks directly to your customers and start marketing your new site on all of the right mediums, so you reach the people looking for your services.</p>
+                </div>
+            </div>    
             </div>
 
         </section>
 
-        <section class="section-contact">
+        <section class="section-plans js--section-plans" id="plans">
+                <div class="row">
+                    <h2>Example packages</h2>
+                    <p class="long-copy">
+                            You can purchase our services individually or we can create a bespoke package to suit your requirements. Below is an example of our most popular packages.<br>
+                            Get in touch today to create yours!
+                    </p>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <div class="plan-box">
+                                <div>
+                                    <p class="plan-price">Beginner</p>
+                                    <p class="plan-price-meal">Get your business online</p>
+                                </div>
+                                <div>
+                                    <ul>
+                                        <li><i class="ion-ios-checkmark-empty icon-small"></i>Website design and development</li>
+                                        <li><i class="ion-ios-checkmark-empty icon-small"></i>Domain name registration</li>
+                                        <li><i class="ion-ios-checkmark-empty icon-small"></i>Dedicated email address</li>
+                                        <li><i class="ion-ios-checkmark-empty icon-small"></i>Hosting for one year</li>
+                                        <li><i class="ion-ios-close-empty icon-small"></i></li>
+                                        <li><i class="ion-ios-close-empty icon-small"></i></li>
+                                        <li><i class="ion-ios-close-empty icon-small"></i></li>
+                                    </ul>
+        
+                                </div>
+                                <div>
+                                    <a href="#" class="btn btn-ghost">Get me online!</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col span-1-of-3">
+                            <div class="plan-box js--wp-4">
+                                <div>
+                                    <p class="plan-price">Intermediate</p>
+                                    <p class="plan-price-meal">Get online and get noticed</p>
+                                </div>
+                                <div>
+                                    <ul>
+                                        <li><i class="ion-ios-checkmark-empty icon-small"></i>Website design and development</li>
+                                        <li><i class="ion-ios-checkmark-empty icon-small"></i>Domain name registration</li>
+                                        <li><i class="ion-ios-checkmark-empty icon-small"></i>Dedicated email address</li>
+                                        <li><i class="ion-ios-checkmark-empty icon-small"></i>Hosting for one year</li>
+                                        <li><i class="ion-ios-checkmark-empty icon-small"></i>Social media set up and design</li>
+                                        <li><i class="ion-ios-close-empty icon-small"></i></li>
+                                        <li><i class="ion-ios-close-empty icon-small"></i></li>
+                                    </ul>
+        
+                                </div>
+                                <div>
+                                    <a href="#" class="btn btn-full">Sign up now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col span-1-of-3">
+                            <div class="plan-box">
+                                <div>
+                                    <p class="plan-price">Advanced</p>
+                                    <p class="plan-price-meal">Get online with regular content updates</p>
+                                </div>
+                                <div>
+                                    <ul>
+                                        <li><i class="ion-ios-checkmark-empty icon-small"></i>Website design and development</li>
+                                        <li><i class="ion-ios-checkmark-empty icon-small"></i>Domain name registration</li>
+                                        <li><i class="ion-ios-checkmark-empty icon-small"></i>Dedicated email address</li>
+                                        <li><i class="ion-ios-checkmark-empty icon-small"></i>Hosting for one year</li>
+                                        <li><i class="ion-ios-checkmark-empty icon-small"></i>Social media set up and design</li>
+                                        <li><i class="ion-ios-checkmark-empty icon-small"></i>Regular blog posts</li>
+                                        <li><i class="ion-ios-checkmark-empty icon-small"></i>Digital marketing plan</li>
+                                    </ul>
+        
+                                </div>
+                                <div>
+                                    <a href="#" class="btn btn-ghost">Find out more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+        
+            </section>
+
+            <section class="section-business js--section-business">
+                    <div class="row">
+                        <h2>People I work with</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <h3>Yoga instructor</h3>
+                            <h3>Personal trainer</h3>
+                            <h3>Fitness instructor</h3>
+                            <h3>Nutritionist </h3>
+                        </div>
+                        <div class="col span-1-of-3">
+                            <h3>Strength and conditioning coach</h3>
+                            <h3>Pilates instructor</h3>
+                            <h3>Group exercise instructor</h3>
+                            <h3>Gym assistant</h3>
+                        </div>
+                        <div class="col span-1-of-3">
+                            <h3>Massage therapist</h3>
+                            <h3>Sports coach</h3>
+                            <h3>Fitness studio</h3>
+                            <h3>Wellness coach</h3>
+                        </div>
+                    </div>
+                </section>   
+
+                <section class="section-cities js--section-cities" id="cities">
+                        <div class="row">
+                            <h2>Merko journal</h2>
+                        </div>
+                        <div class="row js--wp-3">
+                            <div class="col span-1-of-3 box">
+                                <a href="#"><img src="resources/img/blog-1.jpg" alt="Lisbon"></a>
+                                <small>Jan 07 2019</small> | <small>Web design</small>
+                                <a href="#"><h3>9 questions to ask yourself before you start your website project</h3></a>
+                                <p>Give your website project a headstart by answering these questions about your business and new site.</p>
+									<a href="#" class="lead">Read More <i class="icon-arrow-right3"></i></a>
+                            </div>
+                
+                            <div class="col span-1-of-3 box">
+                                <a href="#"><img src="resources/img/blog-2.jpg" alt="San Francisco"></a>
+                                <small>Jan 13 2019</small> | <small>Running</small>
+                                <a href="#"><h3>What I learnt training for the London Marathon</h3></a>
+                                <p>Some of the many lessons I learnt about running while training for the 2018 edition of the London Marathon.</p>
+									<a href="#" class="lead">Read More <ion-icon name="arrow-round-forward"></ion-icon></a>
+                            </div>
+                
+                            <div class="col span-1-of-3 box">
+                                <a href="#"><img src="resources/img/blog-3.jpg" alt="Berlin"></a>
+                                <small>Jan 20 2019</small> | <small>Content</small>
+                                <a href="#"><h3>Why your website copy is so important</h3></a>
+                                <p>If you want people to come to your website, it's important to provide content that answers their questions.</p>
+									<a href="#" class="lead">Read More <i class="ion-icon-arrow-round-forward"></i></a>
+                            </div>
+                        </div>
+                        <div class="row more-blogs">
+                                <a class="btn btn-full" href="#">More from my journal</a>
+                        </div>
+                
+                    </section>
+
+        <section class="section-contact js--section-contact ">
             <div class="row">
                 <h2><a href="mailto:dylan@merkofitness.com?Subject=Hi Merko, let's work together!">Contact me</a> today to discuss your project</h2>
             </div>
@@ -129,14 +402,16 @@
                     </div>
         </footer>
 
-
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/respond@0.9.0/main.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
+        <script src="Vendors/js/jquery.waypoints.min.js"></script>
+        <script src="Resources/js/script.js"></script>
     
     </body>
 
-    <script src="https://cdn.jsdelivr.net/npm/respond@0.9.0/main.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
+    
 
 
 
