@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <link rel="icon" type="image/ico" href="Resources/img/merko.ico" />
         <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
@@ -17,72 +20,83 @@
             <nav>
                 <div class="row">
                     <a href="index.html"><img src="Resources/img/logomerko4.png" alt="Merko logo" class="logo"></a>
-                    <a href="index.html"><img src="/img/logomerko4.png" alt="Merko logo" class="logo-black"></a>
+                    <a href="index.html"><img src="Resources/img/logomerko4.png" alt="Merko logo" class="logo-black"></a>
                     <ul class="main-nav js--main-nav">
-                        <li><a href="#services">What I do</a></li>
-                        <li><a href="#about">Why Merko</a></li>
-                        <li><a href="#">Latest Work</a></li>
+                        <li><a href="index.html#services">What I do</a></li>
+                        <li><a href="index.html#about">Why Merko</a></li>
                         <li><a href="#">Journal</a></li>
-                        <li><a href="#">Let's chat</a></li>
+                        <li><a href="contact.html">Let's chat</a></li>
                     </ul>
                     <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
                 </div>
             </nav>
-            <div class="hero-text-box blog-hero-text-box">
+            <div class="blog-hero-text-box">
                 <h1>Thoughts, insights and <span class="bold-text">reflections</span></h1>
             </div>
 
 
-        </header>   
-
-        <section>
-            <div class="row blog-post grey-background">
-                <div class="col span-1-of-2">
-                    <div class="post-date">26 Jan 2019</div>
-                    <h2 class="post-title">Starting your website project</h2>
-                    <p class="post-blurb">Where do you start when you want to build a new website for your fitness business? These are the nine essential questions we like to ask our clients before the design process begins.</p>
-                    <a class="btn btn-ghost blog-btn" href="#">Read more</a>    
-                </div>
-                <div class="col span-1-of-2">
-                    <img src="Resources/img/blog-1.jpg" alt="Woman ready to sprint">
-
+        </header>  
+        <section class="js--section-blog">
+        <div class="row">
+        <div class="col span-1-of-2 box">
+                <div class="blog-item">
+                    <figure class="thumb">
+                        <img src="Resources/img/blog-website-questions.jpg" alt="">
+                    </figure>
+                    <article class="blog-content">
+                        <div class="blog-meta">Jan 29 2018 | Web design</div>
+                        <h3>9 questions to ask before you start your website project</h3>                      
+                        <p>Give your website project a headstart by answering these questions about your business and new site.</p>
+                        <a href="" class="read-more">Read More</a>
+                    </article>
                 </div>
             </div>
-        </section>
 
-        <section>
-                <div class="row blog-post">
-                    <div class="col span-1-of-2">
-                        <div class="post-date">26 Jan 2019</div>
-                        <h2 class="post-title">Starting your website project</h2>
-                        <p class="post-blurb">Where do you start when you want to build a new website for your fitness business? These are the nine essential questions we like to ask our clients before the design process begins.</p>
-                        <a class="btn btn-ghost blog-btn" href="#">Read more</a>    
-                    </div>
-                    <div class="col span-1-of-2 blog-image">
-                        <img src="Resources/img/blog-2.jpg" alt="Woman ready to sprint">
-    
-                    </div>
+            <div class="col span-1-of-2 box">
+					<div class="blog-item">
+						<figure class="thumb">
+							<img src="Resources/img/blog-runners.jpg" alt="">
+						</figure>
+						<article class="blog-content">
+                            <div class="blog-meta">Jan 29 2018 | Running</div>
+							<h3>What I learnt training for the London Marathon</h3>					
+							<p>Some of the many lessons I learnt about running while training for the 2018 edition of the London Marathon.</p>
+							<a href="" class="read-more">Read More</a>
+						</article>
+					</div>
                 </div>
-        </section>
-
-        <section>
-                <div class="row blog-post grey-background">
-                    <div class="col span-1-of-2">
-                        <div class="post-date">26 Jan 2019</div>
-                        <h2 class="post-title">Starting your website project</h2>
-                        <p class="post-blurb">Where do you start when you want to build a new website for your fitness business? These are the nine essential questions we like to ask our clients before the design process begins.</p>
-                        <a class="btn btn-ghost blog-btn" href="#">Read more</a>    
+        </div>   
+        
+        <div class="row">
+                <div class="col span-1-of-2 box">
+                        <div class="blog-item">
+                            <figure class="thumb">
+                                <img src="Resources/img/blog-website-copy.jpg" alt="">
+                            </figure>
+                            <article class="blog-content">
+                                <div class="blog-meta">Jan 29 2018 | Content</div>
+                                <h3>Why your website copy is so important</h3>
+                                <p>If you want people to come to your website, it's important to provide content that answers their questions.</p>
+                                <a href="" class="read-more">Read More</a>
+                            </article>
+                        </div>
                     </div>
-                    <div class="col span-1-of-2">
-                        <img src="Resources/img/blog-3.jpg" alt="Woman ready to sprint">
-    
-                    </div>
-                </div>
+
+                    <div class="col span-1-of-2 box">
+                            <div class="blog-item">
+                                <figure class="thumb">
+                                    <img src="Resources/img/blog-5x5.jpg" alt="">
+                                </figure>
+                                <article class="blog-content">
+                                    <div class="blog-meta">Jan 29 2018 | Weight lifting</div>
+                                    <h3>What I learnt on Stronglifts 5x5</h3>
+                                    <p>For the first time in my life, I tried a serious weightlifting programme. This is what I learnt while doing it.</p>
+                                    <a href="" class="read-more">Read More</a>
+                                </article>
+                            </div>
+                        </div>   
+            </div>
         </section>
-
-
-
-
 
 
 
@@ -90,12 +104,11 @@
                 <div class="row">
                         <div class="col span-1-of-2">
                             <ul class="footer-nav">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Services</a></li>
-                                <li><a href="#">Why Merko</a></li>
-                                <li><a href="#">Latest Work</a></li>
-                                <li><a href="#">Journal</a></li>
-                                <li><a href="#">Let's Chat</a></li>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="index.html#services">Services</a></li>
+                                <li><a href="index.html#about">Why Merko</a></li>
+                                <li><a href="blog.html">Journal</a></li>
+                                <li><a href="contact.html">Let's Chat</a></li>
                             </ul>
                         </div>
                         <div class="col span-1-of-2">

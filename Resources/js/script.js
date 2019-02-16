@@ -11,6 +11,30 @@ $(document).ready(function() {
         offset: '60px;'
       })
 
+      $('.js--section-blog').waypoint(function(direction) {
+        if (direction == "down") {
+            $('nav').addClass('sticky');
+        } else {
+            $('nav').removeClass('sticky');
+        }
+    })
+
+    $('.js--section-contact').waypoint(function(direction) {
+        if (direction == "down") {
+            $('nav').addClass('sticky');
+        } else {
+            $('nav').removeClass('sticky');
+        }
+    })
+
+    $('.js--section-services').waypoint(function(direction) {
+        if (direction == "down") {
+            $('nav').addClass('sticky');
+        } else {
+            $('nav').removeClass('sticky');
+        }
+    })
+
      /* scroll on buttons */
      
      $('.js--scroll-to-plans').click(function () {
