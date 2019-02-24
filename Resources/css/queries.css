@@ -133,6 +133,10 @@
 
     .steps-box:first-child { text-align: center; }
 
+    .app-screen {
+        width: 75%;
+    }
+
     .works-step div {
         height: 40px;
         width: 40px;
@@ -145,8 +149,6 @@
     .works-step:last-of-type { margin-bottom: 20px; }
 
 }
-
-
 
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
