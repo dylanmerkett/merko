@@ -1116,6 +1116,22 @@ textarea {
     background-attachment: fixed;
 }
 
+.social-media-header {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/social-media-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    background-attachment: fixed;
+}
+
+.website-audit-header {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url();
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    background-attachment: fixed;
+}
+
 .services-section-contact {
     padding-top: 0;
     padding-bottom: 60px;
