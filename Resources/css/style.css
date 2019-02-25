@@ -410,6 +410,17 @@ header {
 /* WHY MERKO SECTION */
 /* ------------------------------ */
 
+.section-steps {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/20180617_115113.jpg);
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+.section-steps {
+    padding-bottom: 20px;;
+}
+
 .steps-box {
     margin-top: 30px;
     padding-left: 3%;
@@ -422,7 +433,7 @@ header {
 
 .app-screen {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 100px;
 }
 
 .works-step {
@@ -507,13 +518,11 @@ cite img {
     margin-bottom: 30px;
 }
 
+
 /* ------------------------------ */
 /* EXAMPLE PACKAGES SECTION */
 /* ------------------------------ */
 
-.section-plans {
-    background-color: #f4f4f4;
-}
 
 .section-plans .long-copy {
     margin-bottom: 30px;
