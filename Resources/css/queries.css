@@ -133,10 +133,6 @@
 
     .steps-box:first-child { text-align: center; }
 
-    .app-screen {
-        width: 75%;
-    }
-
     .works-step div {
         height: 40px;
         width: 40px;
