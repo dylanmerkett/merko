@@ -295,21 +295,17 @@ header {
   
   .hover-box-holder figure {
       position: relative;
-      float: left;
       overflow: hidden;
       width: auto;
       height: 400px;
       background: #333333;
       text-align: center;
       cursor: pointer;
-    float: left;
-    margin: 0;
-    border-radius: 4px;
+      margin: 0;
+      border-radius: 4px;
   }
   
-  .hover-box-holder figure:nth-of-type(2){
-    margin: 0px 21px;
-  }
+  
   
   .hover-box-holder figure img {
       position: relative;
