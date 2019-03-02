@@ -422,14 +422,14 @@ header {
     padding-left: 3%;
 }
 
-.steps-box p {
-    font-size: 100%;
-    line-height: 145%;
+.reason {
+    text-align: center;
 }
 
-.app-screen {
-    width: 100%;
-    border-radius: 100px;
+.steps-box p {
+    font-size: 90%;
+    line-height: 145%;
+    font-style: italic;
 }
 
 .works-step {
