@@ -457,6 +457,7 @@ header {
     background-size: cover;
     color: #fff;
     background-attachment: fixed;
+    background-position: center;
 }
 
 blockquote {
@@ -564,6 +565,7 @@ cite img {
     background-size: cover;
     color: #fff;
     background-attachment: fixed;
+    background-position: center;
 }
 
 .section-business h3 {
