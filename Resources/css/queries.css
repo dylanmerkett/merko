@@ -1,3 +1,22 @@
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  
+
+
+{ /* STYLES GO HERE */}
+
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 767px) 
+
+{ /* STYLES GO HERE */}
+
+
+
+
+
+
 /* Big tablet to 1200px (width smaller than the 1140px row */
 @media only screen and (max-width: 1200px) {
     .hero-text-box {

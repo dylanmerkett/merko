@@ -406,15 +406,15 @@ header {
 /* WHY MERKO SECTION */
 /* ------------------------------ */
 
-.section-steps {
+.section-about {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/20180617_115113.jpg);
     background-size: cover;
     color: #fff;
     background-attachment: fixed;
 }
 
-.section-steps {
-    padding-bottom: 20px;;
+.section-about {
+    padding-bottom: 50px;;
 }
 
 .steps-box {
@@ -490,7 +490,7 @@ cite img {
 /* HOW IT WORKS SECTION */
 /* ------------------------------ */
 
-.section-features .long-copy {
+.section-process .long-copy {
     margin-bottom: 30px;
 }
 
@@ -500,7 +500,7 @@ cite img {
 /* ------------------------------ */
 
 
-.section-plans .long-copy {
+.section-packages .long-copy {
     margin-bottom: 30px;
 }
 
@@ -582,32 +582,32 @@ cite img {
     margin-bottom: 5px;
 }
 
-.section-cities h3 {
+.section-journal h3 {
     margin-top: 25px;
 }
 
-.section-cities p {
+.section-journal p {
     margin-top: 25px;
     margin-bottom: 25px;
     font-size: 90%;
 }
 
-.section-cities .lead {
+.section-journal .lead {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 75%;
 }
 
-.section-cities a:link,
-.section-cities a:visited {
+.section-journal a:link,
+.section-journal a:visited {
     color: #555;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.2s;
 }
 
-.section-cities a:hover,
-.section-cities a:active {
+.section-journal a:hover,
+.section-journal a:active {
     color: #cd3980;
 }
 
@@ -619,16 +619,16 @@ cite img {
     margin-top: 50px;
 }
 
-.section-cities .btn-full:link,
-.section-cities .btn-full:visited {
+.section-journal .btn-full:link,
+.section-journal .btn-full:visited {
     background-color: #cd3980;
     border: 1px solid #cd3980;
     color: #fff;
     font-weight: 300;
 }
 
-.section-cities .btn:hover,
-.section-cities .btn:active {
+.section-journal .btn:hover,
+.section-journal .btn:active {
     background-color: #a92b67;
 }
 
