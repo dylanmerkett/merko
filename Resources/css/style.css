@@ -414,7 +414,7 @@ header {
 }
 
 .section-about {
-    padding-bottom: 50px;;
+    padding-bottom: 80px;;
 }
 
 .steps-box {
@@ -552,21 +552,6 @@ cite img {
     padding: 5px 0;
 }
 
-/* ------------------------------ */
-/* BUSINESSES I WORK WITH SECTION */
-/* ------------------------------ */
-
-.section-business {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/business-background.jpg);
-    background-size: cover;
-    color: #fff;
-    background-attachment: fixed;
-    background-position: center;
-}
-
-.section-business h3 {
-    text-align: center;
-}
 
 /* ------------------------------ */
 /* LATEST BLOGS SECTION */
@@ -642,14 +627,30 @@ cite img {
     margin-top: 60px;
 }
 
+/* ------------------------------ */
+/* WHY YOU SHOULD WORK WITH ME SECTION HOMEPAGE*/
+/* ------------------------------ */
 
+
+.section-work-with-me {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/class-workout.jpg);
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.work-paragraph {
+    text-align: center;
+    padding-bottom: 10px;
+}
 
 /* ------------------------------ */
 /* CONTACT SECTION HOMEPAGE*/
 /* ------------------------------ */
 
 .section-contact {
-    padding-top: 0;
+    padding-top: 60px;
     padding-bottom: 60px;
     margin-top: 10px;
 }
