@@ -529,7 +529,7 @@ cite img {
 }
 
 .plan-price {
-    font-size: 250%;
+    font-size: 200%;
     margin-bottom: 10px;
     font-weight: 100;
     color: #cd3980;
@@ -549,6 +549,7 @@ cite img {
 }
 
 .plan-box ul li {
+    font-size: 80%;
     padding: 5px 0;
 }
 
