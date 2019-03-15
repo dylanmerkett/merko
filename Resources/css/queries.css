@@ -201,6 +201,10 @@ and (max-device-width : 767px) {
         top: 25%;
     }
 
+    .hover-box-holder figure {
+        height: 250px;
+    }
+
     
   }
   
