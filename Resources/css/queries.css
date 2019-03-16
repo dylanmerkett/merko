@@ -210,6 +210,7 @@ and (max-device-width : 767px) {
         width: 100vw;
         height: 100vh;
         background-size: cover;
+        background-position: center center;
         color: #fff;
         background-attachment: fixed;
     }
