@@ -206,13 +206,7 @@ and (max-device-width : 767px) {
     }
 
     .section-about {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/about-1024.jpg);
-        width: 100vw;
-        height: 100vh;
-        background-size: cover;
-        background-position: center center;
-        color: #fff;
-        background-attachment: fixed;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/about-768.jpg);
     }
 
     
