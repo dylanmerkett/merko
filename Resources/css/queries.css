@@ -1,4 +1,54 @@
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {
+    
+    
+    body { font-size: 18px; }
+    section { padding: 60px 0; }
 
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .steps-box { margin-top: 10px; }
+    .steps-box:last-child { margin-top: 10px; }
+    .works-steps { margin-bottom: 40px; }
+    .works-step:last-of-type { margin-bottom: 60px; }
+
+    .icon-small { 
+        width: 17px;
+        margin-right: 5px;
+     }
+
+    .city-feature { font-size: 90% }
+
+    .plan-box {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .plan-price {
+        font-size: 250%;
+    }
+
+    .contact-form {
+        width: 80%;
+    }
+
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row { padding: 0 2%; }
+
+    .section-about {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/about-1024.jpg);
+    }
+
+
+}
 
 
 @media only screen 
@@ -153,6 +203,11 @@ and (max-device-width : 767px) {
 
     .hover-box-holder figure {
         height: 250px;
+    }
+
+    .section-about {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/about-768.jpg);
+        background-position: center;
     }
 
     
