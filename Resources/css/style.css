@@ -411,10 +411,13 @@ header {
     background-size: cover;
     color: #fff;
     background-attachment: fixed;
+    padding-bottom: 80px;
 }
 
-.section-about {
-    padding-bottom: 80px;;
+.about p {
+    line-height: 145%;
+    padding-top: 2%;
+    text-align: center;
 }
 
 .steps-box {
