@@ -155,11 +155,6 @@ and (max-device-width : 767px) {
         height: 250px;
     }
 
-    .section-about {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/about-768.jpg);
-        background-size: auto;
-    }
-
     
   }
   
