@@ -43,10 +43,6 @@ and (max-device-width : 1024px)  {
 
     .row { padding: 0 2%; }
 
-    .section-about {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/about-1024.jpg);
-    }
-
 
 }
 
@@ -207,7 +203,8 @@ and (max-device-width : 767px) {
 
     .section-about {
         background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/about-768.jpg);
-        background-position: center;
+        background-position: center center;
+        background-attachment: unset;
     }
 
     
